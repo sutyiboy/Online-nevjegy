@@ -112,6 +112,7 @@ ul {
 
 ul.list {
 	margin-bottom: 1rem;
+	font-size: 1.5em;
 }
 
 .ico {
@@ -146,7 +147,7 @@ ul.list {
 	justify-content: center;
   align-items: center;
 	width: 95%;
-	display: flex;
+	display: inline-flex;
 	margin: 0 auto;
 }
 
