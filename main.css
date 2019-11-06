@@ -24,7 +24,7 @@ body {
   align-items: center;
 	vertical-align: middle;
 	margin-top: 5rem;
-	width: 30rem;
+	/*width: 30rem;*/
   max-width: calc(100vw - 5px);	
 	background-color: rgba(0, 0, 0, 0.6);
 	border-radius: 3rem;
