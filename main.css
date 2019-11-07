@@ -20,12 +20,11 @@ body {
 }
 
 .profile-card {
-	justify-content: center;
-  align-items: center;
 	vertical-align: middle;
 	margin-top: 5rem;
-	/*width: 30rem;*/
-  max-width: calc(100vw - 0.15rem);	
+	width: inherit;
+  max-width: calc(100vw - 1px);
+	height: auto;
 	background-color: rgba(0, 0, 0, 0.6);
 	border-radius: 3rem;
 	box-sizing: border-box;
