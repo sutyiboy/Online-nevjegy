@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 105%;
+  font-size: 100%;
 }
 
 /*Pozícionálás*/
@@ -17,22 +17,32 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+	position: relative;
 }
 
 .profile-card {
+	position: absolute;
 	vertical-align: middle;
-	margin-top: 5rem;
-	width: inherit;
-  max-width: calc(100vw - 1px);
-	height: auto;
+	margin-top: 1rem;
+	width: 90%;
 	background-color: rgba(0, 0, 0, 0.6);
-	border-radius: 3rem;
+	border-radius: 2rem;
 	box-sizing: border-box;
+}
+
+@media (min-width: 750px) {
+	.profile-card {
+		position:absolute;
+		width: 50%;
+	  height: auto;
+	}
+	
 }
 
 .head {
 	width: 95%;
 	margin: 0 auto;
+	psition: absolute;
 }
 
 img {
@@ -55,6 +65,7 @@ img:hover {
 	color: aliceblue;
 	margin-top: 1.3rem;
 	font-family: 'Amarante';
+	
 }
 
 h1 {
@@ -112,7 +123,7 @@ ul {
 
 ul.list {
 	margin-bottom: 1rem;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 .ico {
