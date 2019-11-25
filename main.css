@@ -23,7 +23,7 @@ body {
 	position: absolute;
 	vertical-align: middle;
 	margin-top: 1rem;
-	width: 90%;
+	width: 80%;
 	background-color: rgba(0, 0, 0, 0.6);
 	border-radius: 2rem;
 	box-sizing: border-box;
@@ -37,9 +37,7 @@ body {
 		width: 40%;
 	  height: auto;
 	}
-	.content {
-		font-size: 100%;
-	}
+
 }
 
 .head {
