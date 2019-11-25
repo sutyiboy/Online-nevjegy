@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 100%;
 }
 
 /*Pozícionálás*/
@@ -30,13 +29,17 @@ body {
 	box-sizing: border-box;
 }
 
+
+
 @media (min-width: 1125px) {
 	.profile-card {
-		position:absolute;
+		position: absolute;
 		width: 40%;
 	  height: auto;
 	}
-	
+	.content {
+		font-size: 100%;
+	}
 }
 
 .head {
@@ -137,6 +140,7 @@ ul.list {
 	width: 95%;
 	color: aliceblue;
 	text-align: justify;
+	font-size: 115%;
 }
 
 .blue-line {
